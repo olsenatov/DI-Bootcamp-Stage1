@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(118, 201,250);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+li {
+   
+  list-style: none;
+  text-align: center;
+  line-height: 1.1;
+  word-spacing: 1px;
+}
+
+li::first-letter{
+  font-size: 1.5em;
+
+}

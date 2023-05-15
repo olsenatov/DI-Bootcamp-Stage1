@@ -1,0 +1,18 @@
+ .content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+}
+p#thirdid {
+    font-size: 24px;
+}
+
+ #firstid {
+    color: blue;
+    font-size: 36px;
+ }
+ #secondid {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+
+ }
