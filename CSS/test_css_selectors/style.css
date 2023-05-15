@@ -1,0 +1,44 @@
+* {
+    color: blue;
+}
+footer p {
+    background-color:red;
+}
+h1+h4 {
+    color: aliceblue;
+    background-color:blue;
+}
+
+ul > li {
+    color:antiquewhite;
+    background-color: green;
+}
+
+a[href="#"] {
+    background-color:rgb(114, 114, 150);
+}
+
+/* selector:pseudo-class {
+    property: value;
+  }
+   */
+
+   li:first-child {
+    background-color:rgb(28, 56, 27);
+}
+
+li:last-child {
+    background-color:rgb(68, 68, 69);
+}
+
+li:nth-child(2) {
+    background-color: teal;
+}
+
+button {
+    background-color: rgb(122, 122, 122);
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+}

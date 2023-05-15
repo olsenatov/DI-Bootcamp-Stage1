@@ -1,0 +1,72 @@
+/* selector {
+    property: value;
+} */
+* {
+    text-align: right;
+    font-family: 'Abel', sans-serif;
+}
+body {
+    font-size: 30 px;
+    background-image: url(background_image1.jpg);
+    background-size: 1800px
+    
+}
+h2, h3, p {
+    color: rgb(127, 81, 81);
+    text-align: center;
+    border: 5px solid rgba(161, 153, 164, 0.2) ;
+    cursor: pointer; 
+    
+}
+
+
+p#newfont, a {
+ 
+    
+    color: rgb(79, 47, 47);
+    text-transform:lowercase
+    line-height: 30px;
+    font-style: normal
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 7px black; 
+    font-variant: small-caps
+    word-spacing: 100em;
+    /* can even have multiple shadows separated by a comma! */
+    /* text-decoration: underline; */
+    
+}
+
+li {
+   
+ list-style: none;
+ display: inline-block;
+}
+.webtext:first-child {
+    border: 3px dashed rgba(142, 89, 5, 0.2);
+}
+.active:hover {
+    color: black;
+}
+
+#div1 {
+    background:rgba(114, 95, 64, 0.5)
+}
+
+#div2 {
+    background:rgba(97, 63, 8, 0.3) 
+}
+/* 
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended) */
