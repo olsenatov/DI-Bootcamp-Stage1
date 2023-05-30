@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Courgette', cursive;
+}
+body {
+    background-image: url(background_map_2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    background-color: rgb(246, 219, 165);
+    border: solid black;
+    border-radius: 1px 30px;
+    margin: 10px;
+    font-size: 17px;
+    color: rgb(56, 43, 35);
+    text-shadow: 0px 0px 1px rgba(197, 195, 195, 0.5);
+    box-shadow: 2px 0px 2px rgba(90, 90, 90, 0.5);
+  }
+  
+  .center-button {
+    left: 50%;
+    top: 38%;
+    width: 200px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+/* now selecting all buttons within parent container */
+
+  .button:nth-child(1) {
+    left: 10%;
+    top: 20%;
+  }
+  
+  .button:nth-child(2) {
+    left: 25%;
+    top: 60%;
+  }
+  
+  .button:nth-child(3) {
+    left: 10%;
+    bottom: 10%;
+  }
+  
+  .button:nth-child(4) {
+    right: 20%;
+    top: 10%;
+  }
+  
+  .button:nth-child(5) {
+    right: 10%;
+    top: 50%;
+  }
+
+  .button:nth-child(6) {
+    right: 30%;
+    bottom: 15%;
+  }
+
+  img {
+    position: fixed;
+    top: 60%;
+    left: 65%;
+    width: 300px;
+    height: 250px;
+    opacity: 0.3;
+ }
+ 
+ img:hover {
+     opacity: 0.9;
+     transition: all 3s;
+ }
+
+ a {
+  color: rgb(56, 43, 35);
+  text-decoration: none;
+ }
+ 
